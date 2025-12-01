@@ -1,2 +1,0 @@
-# YINGMARKET
-Marketplace bebiversion
