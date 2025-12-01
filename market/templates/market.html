@@ -5,6 +5,7 @@ Market Page
 {% block content %}
 
 <div class="row" style="margin-top:20px; margin-left:20px">
+   <!-- LEFT COLUMN -->
    <div class="col-8">
       <h2>Available items on the market</h2>
       <p>Click on one of the items to start buying</p>
@@ -47,7 +48,7 @@ Market Page
                 </td>
             </tr>
 
-            <!-- More info modal -->
+            <!-- MORE INFO MODAL -->
             <div class="modal fade" id="modal-info-{{ item.id }}" tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -64,7 +65,7 @@ Market Page
                 </div>
             </div>
 
-            <!-- Buy item modal -->
+            <!-- BUY ITEM MODAL -->
             <div class="modal fade" id="modal-buy-{{ item.id }}" tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -93,7 +94,7 @@ Market Page
     </table>
    </div>
 
-    <!-- Right column for owned items -->
+    <!-- RIGHT COLUMN (RESTORED) -->
     <div class="col-4">
         <h2>Owned items</h2>
         <p>Click on sell item to put an item back on the market</p>
